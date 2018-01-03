@@ -1,2 +1,12 @@
 Android lessons
 http://startandroid.ru/ru/uroki/vse-uroki-spiskom.html
+
+New module:
+ Application/Library name: startandroid.ru (p<#project-000><#lesson-0>)
+ Module name: p<#project-000><#lesson-0>
+ Package name: ru.startandroid.p<#project-000><#lesson-0>
+
+Example:
+ startandroid.ru (p0031)
+ p0031
+ ru.startandroid.p0031
