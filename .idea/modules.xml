@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0102activitylistener/p0102activitylistener.iml" filepath="$PROJECT_DIR$/p0102activitylistener/p0102activitylistener.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0111resvalues/p0111resvalues.iml" filepath="$PROJECT_DIR$/p0111resvalues/p0111resvalues.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0121logandmess/p0121logandmess.iml" filepath="$PROJECT_DIR$/p0121logandmess/p0121logandmess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0131menusimple/p0131menusimple.iml" filepath="$PROJECT_DIR$/p0131menusimple/p0131menusimple.iml" />
     </modules>
   </component>
 </project>
