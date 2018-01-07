@@ -25,6 +25,7 @@
             <option value="$PROJECT_DIR$/p0142menuxml" />
             <option value="$PROJECT_DIR$/p0151contextmenu" />
             <option value="$PROJECT_DIR$/p0161dinamiclayout" />
+            <option value="$PROJECT_DIR$/p0171dynamiclayout2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
