@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0141menuadv/p0141menuadv.iml" filepath="$PROJECT_DIR$/p0141menuadv/p0141menuadv.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0142menuxml/p0142menuxml.iml" filepath="$PROJECT_DIR$/p0142menuxml/p0142menuxml.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0151contextmenu/p0151contextmenu.iml" filepath="$PROJECT_DIR$/p0151contextmenu/p0151contextmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0161dinamiclayout/p0161dinamiclayout.iml" filepath="$PROJECT_DIR$/p0161dinamiclayout/p0161dinamiclayout.iml" />
     </modules>
   </component>
 </project>
