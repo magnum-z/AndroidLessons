@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/p0081viewbyid" />
             <option value="$PROJECT_DIR$/p0091onclickbuttons" />
             <option value="$PROJECT_DIR$/p0101listener" />
+            <option value="$PROJECT_DIR$/p0102activitylistener" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
