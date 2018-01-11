@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0181dynamiclayout3/p0181dynamiclayout3.iml" filepath="$PROJECT_DIR$/p0181dynamiclayout3/p0181dynamiclayout3.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0191simplecalculator/p0191simplecalculator.iml" filepath="$PROJECT_DIR$/p0191simplecalculator/p0191simplecalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0201simpleanimation/p0201simpleanimation.iml" filepath="$PROJECT_DIR$/p0201simpleanimation/p0201simpleanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0211twoactivity/p0211twoactivity.iml" filepath="$PROJECT_DIR$/p0211twoactivity/p0211twoactivity.iml" />
     </modules>
   </component>
 </project>
