@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0201simpleanimation/p0201simpleanimation.iml" filepath="$PROJECT_DIR$/p0201simpleanimation/p0201simpleanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0211twoactivity/p0211twoactivity.iml" filepath="$PROJECT_DIR$/p0211twoactivity/p0211twoactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0231oneactivitystate/p0231oneactivitystate.iml" filepath="$PROJECT_DIR$/p0231oneactivitystate/p0231oneactivitystate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0241twoactivitystate/p0241twoactivitystate.iml" filepath="$PROJECT_DIR$/p0241twoactivitystate/p0241twoactivitystate.iml" />
     </modules>
   </component>
 </project>
