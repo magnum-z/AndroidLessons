@@ -35,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0311simpleintents/p0311simpleintents.iml" filepath="$PROJECT_DIR$/p0311simpleintents/p0311simpleintents.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0321simplebrowser/p0321simplebrowser.iml" filepath="$PROJECT_DIR$/p0321simplebrowser/p0321simplebrowser.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0331sharedpreferences/p0331sharedpreferences.iml" filepath="$PROJECT_DIR$/p0331sharedpreferences/p0331sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0341simplesqlite/p0341simplesqlite.iml" filepath="$PROJECT_DIR$/p0341simplesqlite/p0341simplesqlite.iml" />
     </modules>
   </component>
 </project>
