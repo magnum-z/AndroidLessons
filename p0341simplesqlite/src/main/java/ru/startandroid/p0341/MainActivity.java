@@ -17,8 +17,8 @@ public class MainActivity extends Activity implements OnClickListener {
 
     final String LOG_TAG = "myLogs";
 
-    Button btnAdd, btnRead, btnClear;
-    EditText etName, etEmail;
+    Button btnAdd, btnRead, btnClear, btnUpd, btnDel;
+    EditText etName, etEmail, etID;
 
     DBHelper dbHelper;
 
@@ -36,8 +36,15 @@ public class MainActivity extends Activity implements OnClickListener {
         btnClear = findViewById(R.id.btnClear);
         btnClear.setOnClickListener(this);
 
+        btnUpd = findViewById(R.id.btnUpd);
+        btnUpd.setOnClickListener(this);
+
+        btnDel = findViewById(R.id.btnDel);
+        btnDel.setOnClickListener(this);
+
         etName = findViewById(R.id.etName);
         etEmail = findViewById(R.id.etEmail);
+        etID = findViewById(R.id.etID);
 
         // create object for managing DB
         dbHelper = new DBHelper(this);
@@ -51,6 +58,7 @@ public class MainActivity extends Activity implements OnClickListener {
         // get data from EditText widgets
         String name = etName.getText().toString();
         String email = etEmail.getText().toString();
+        String id = etID.getText().toString();
 
         // connect to DB
         SQLiteDatabase db = dbHelper.getWritableDatabase();
@@ -99,6 +107,27 @@ public class MainActivity extends Activity implements OnClickListener {
                 // delete all records
                 int clearCount = db.delete("mytable", null, null);
                 Log.d(LOG_TAG, "deleted rows count = " + clearCount);
+                break;
+            case R.id.btnUpd:
+                if (id.equalsIgnoreCase("")) {
+                    break;
+                }
+                Log.d(LOG_TAG, "--- Update mytable: ---");
+                // prepare values for update
+                cv.put("name", name);
+                cv.put("email", email);
+                // update row by id
+                int updCount = db.update("mytable", cv, "id = ?", new String[] { id });
+                Log.d(LOG_TAG, "updated rows count = " + updCount);
+                break;
+            case R.id.btnDel:
+                if (id.equalsIgnoreCase("")) {
+                    break;
+                }
+                Log.d(LOG_TAG, "--- Delete from mytable: ---");
+                // delete from mytable by id
+                int delCount = db.delete("mytable", "id = " + id, null);
+                Log.d(LOG_TAG, "deleted rows count = " + delCount);
                 break;
         }
         // close connection to DB
